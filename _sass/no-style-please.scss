@@ -43,7 +43,12 @@ p { margin: 1rem 0; }
 
 li { margin: 0.4rem 0; }
 
-*:target { background: yellow; }
+*:target { background: #256d1b; }
+
+a{
+  color: #da92e4;
+}
+
 
 .w {
   max-width: 640px;
@@ -70,6 +75,10 @@ table, th, td {
 code {
   color: white;
   background: black;
+}
+
+::marker{
+  content: '* ';
 }
 
 div.highlighter-rouge code {
