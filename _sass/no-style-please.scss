@@ -21,6 +21,7 @@ body[a="dark"] { @include dark-appearance; }
 // see: https://stackoverflow.com/a/61265706
 html, body { background: white; }
 
+
 html { height: 100%; }
 
 body {
@@ -35,9 +36,8 @@ body {
 
 .post-meta { text-align: right; }
 
-h1{
-  	text-shadow: 0px 0px 6px #da92e4c0;
-}
+
+
 
 h2, h3, h4, h5, h6 { margin-top: 3rem; }
 
@@ -49,20 +49,50 @@ li { margin: 0.4rem 0; }
 
 *:target { background: #256d1b; }
 
-a{
-  color: #da92e4;
-  text-decoration: none;
+a {
+  position:relative;
+  color:#da92e4;
+  text-decoration:none
+}
+a::before {
+  top: 24px;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  transform: scaleX(0);
+  transform-origin:top right;
+}
+a:hover::before {
+  top: 24px;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  transform:scaleX(1);
+  transform-origin: top left;
+}
+a::before{
+  content:" ";
+  position: absolute;
+  top: 24px;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  background:  #636d5c;
+  z-index: -1;
+  transition:transform .4s ease
 }
 
-a:hover{
-  text-decoration: underline;
-}
 
-
+// a:hover{
+//   text-decoration: underline;
+// }
 .w {
   max-width: 640px;
   margin: 0 auto;
-  padding: 4rem 2rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 6rem;
+  padding-left: 2rem;
 }
 
 hr {
@@ -111,16 +141,47 @@ img {
   margin: 0 auto;
 }
 
+// .footer {
+//   position: absolute;
+//   right: 0;
+//   bottom: 0;
+//   left: 0;
+//   padding-top: 2rem;
+//   padding: 1rem;
+//   background-color:#dddddd;
+//   text-align: center;
+// }
+// #page-container {
+//   position:relative;
+//   min-height:20vh;
+// }
+
+
 .footer {
+  display: flex; /* Use flexbox layout */
+  justify-content:center; /* Center the content horizontally */
+  padding: 4px 10px 4px 10px; /* Add padding for better readability */
+  border: 4px #636d5c;
+  border-style:solid;  
+  border-bottom-style:none;
+  border-top-style: none;
+}
+
+
+
+.footer-content{
+  text-align: center;
+  display: inline-block;
+  min-height:2vh;
+}
+
+div.DivFooter{
   position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
-  background-color: #efefef;
-  text-align: center;
-}
-#page-container {
-  position: relative;
-  min-height: 100vh;
+  padding-bottom: 16px;
+  display: flex;
+  justify-content:center;
+
 }
