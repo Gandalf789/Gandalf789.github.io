@@ -1,6 +1,8 @@
 ---
 layout: post
 category: projects
+seo_title: E-Puck Wall Following Project
+seo_description: A e-puck robot simulated in Webots that solves a maze using wall following techniques
 ---
 
 ## Pathfinding robot in a maze

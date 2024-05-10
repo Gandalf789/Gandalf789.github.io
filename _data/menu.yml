@@ -35,5 +35,3 @@ entries:
     entries:
     - title: "view my Europass CV"
     - title: <a href="https://drive.google.com/file/d/1HUs12mh2xghBbfjhiCxv82VeGEEcIxVU/view?usp=sharing" target="_blank" rel="noopener noreferrer">[CV]</a>
-    # - title: "[rss]"
-    #   url: feed.xml
