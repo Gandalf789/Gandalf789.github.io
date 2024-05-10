@@ -176,23 +176,23 @@ img {
   margin: 0 auto;
 }
 
-.footer {
-  position: absolute;
-  padding: 10px 0 10px 0;
-  right: 28%;
-  bottom: 8px;
-  top: auto;
-  left: 28%;
-  text-align: center;
-  border: 4px #b3469c;
-  border-style:solid;  
-  border-bottom-style:none;
-  border-top-style: none;
-}
-.page-container {
-  position:relative;
-  min-height:16px;
-}
+// .footer {
+//   position: absolute;
+//   padding: 10px 0 10px 0;
+//   right: 28%;
+//   bottom: 8px;
+//   top: auto;
+//   left: 28%;
+//   text-align: center;
+//   border: 4px #b3469c;
+//   border-style:solid;  
+//   border-bottom-style:none;
+//   border-top-style: none;
+// }
+// .page-container {
+//   position:relative;
+//   min-height:16px;
+// }
 
 
 // .footer {
@@ -223,3 +223,37 @@ img {
 //   justify-content:center;
 
 // }
+
+
+.footer {
+  justify-content: center;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  background-color: #ffffff;
+  opacity: 0.84;
+  position: absolute;
+  z-index: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.page-container{
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+@media only screen and (max-width : 500px){ /* You can edit the max-width value to match what you need */
+.footer {
+  height: 50px;
+  width: 100%;
+  background-color: #ffffff;
+  opacity: 0.84;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin-top:30px; /* You can edit the value of the margin top as you need */
+}
+}
