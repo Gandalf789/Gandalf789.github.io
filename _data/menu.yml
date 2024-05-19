@@ -26,7 +26,6 @@ entries:
 
   - title: all posts
     post_list:
-      limit: 4
       category: blog
       show_more: true
       show_more_text: See archive...

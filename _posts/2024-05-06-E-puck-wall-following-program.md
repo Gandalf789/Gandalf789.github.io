@@ -26,3 +26,7 @@ seo_description: A e-puck robot simulated in Webots that solves a maze using wal
   The code is modularized in 4 different modules that are connected through an header file with the main source as shown below
   
   ![Screenshot from 2024-01-04 14-14-56](https://github.com/Gandalf789/pathfinder-robot/assets/109030213/5e78930c-0322-4aa9-a774-ccc089953cfc)
+
+---
+
+*T.*
