@@ -34,7 +34,7 @@ At the core of my brute forcing algorithm is the Quadrant class. The quadrants a
 
 - But how does it know when to reset it all and start over? This is where I think the code can get greatly improved as the current method is quite stupid. The Quadrant class has a static counter that increases everytime a Quadrant gets reseted. After a certain threshold, the program considers that it has run in an impossible situation and starts over from scratch. This I think is quite inefficient and greatly affects the time it needs to generate a sudoku.
 
-![the program scheme](https://github.com/Gandalf789/Gandalf789.github.io/blob/0438ddd0855a41a621765e43351e37ec6e589cac/_screenshots/scheme.png)
+![the program scheme](https://raw.githubusercontent.com/Gandalf789/Gandalf789.github.io/master/scheme.png)
 
 ## Current state 
 
