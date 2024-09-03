@@ -34,6 +34,7 @@ entries:
       show_more_text: See archive...
       show_more_url: archive.html
   - title: CV
+    category: cv
     entries:
     - title: "view my Europass CV"
-    - title: <a href="https://drive.google.com/file/d/1HUs12mh2xghBbfjhiCxv82VeGEEcIxVU/view?usp=sharing" target="_blank" rel="noopener noreferrer">[CV]</a>
+      url: cv.html
