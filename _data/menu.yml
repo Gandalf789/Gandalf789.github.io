@@ -24,6 +24,10 @@ entries:
         entries:
         - title: A small robotics project in Webots using C
           url: e-puck-wall-following-program.html
+        - title: Generating a Sudoku game in C#
+          url: sudoku-generator.html
+        - title: Using git on my home server
+          url: home-git-server.html
 
   - title: all posts
     post_list:

@@ -1,6 +1,6 @@
 ---
 layout: post
-category: blog
+category: projects
 seo_title: Git Home Server
 seo_description: How I made a Git home server from an old PC I had 
 ---
