@@ -1,9 +1,13 @@
-title: timo's blog # name of the site
+title: timi was here # name of the site
 author: Timotei Ciupei # name of site's author
 email: timociupei@gmail.com # email of site's author
 url: https://gandalf789.github.io/ # root address of the site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
+<<<<<<< HEAD
+=======
+ "And I guess I just don't know" 
+>>>>>>> 7a4d00950ee7989e7b1bed6769cfc8999bdad515
 
 permalink: /:slug.html
 

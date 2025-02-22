@@ -18,11 +18,13 @@ entries:
   
   - title: projects
     entries:
-      - title: <a href="https://blazorapp120240523160356.azurewebsites.net" target="_blank" rel="noopener noreferrer">Calculator Web App using Blazor</a>
-      - title: E-puck wall following program
-        entries:
+        - title: <a href="https://blazorapp120240523160356.azurewebsites.net" target="_blank" rel="noopener noreferrer">Calculator Web App using Blazor</a>
         - title: A small robotics project in Webots using C
           url: e-puck-wall-following-program.html
+        - title: Generating a Sudoku game in C#
+          url: sudoku-generator.html
+        - title: Using git on my home server
+          url: home-git-server.html
 
   - title: all posts
     post_list:
@@ -31,6 +33,7 @@ entries:
       show_more_text: See archive...
       show_more_url: archive.html
   - title: CV
+    category: cv
     entries:
     - title: "view my Europass CV"
-    - title: <a href="https://drive.google.com/file/d/1HUs12mh2xghBbfjhiCxv82VeGEEcIxVU/view?usp=sharing" target="_blank" rel="noopener noreferrer">[CV]</a>
+      url: cv.html
